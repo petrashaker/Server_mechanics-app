@@ -1,8 +1,16 @@
 .card {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: white;
-    width: 40rem;
-    height: 20rem;
+    width: 36rem;
+    height: 18rem;
     border-radius: 1rem;
-    margin: auto;
+    margin: 4rem auto;
+}
+
+@media screen and (min-width: 1035px) {
+    .card {
+        margin: 2rem;
+        width: 40rem;
+        height: 20rem;
+    }
 }

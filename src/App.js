@@ -1,11 +1,11 @@
-import Card from "./Components/UI/Card";
+import Jokes from './Components/Jokes/Jokes';
 import './style.css';
+import { jokes } from './jokes';
 
 function App() {
   return (
     <div className="flex">
-          <Card>Hello App</Card>
-          <Card>Hello App</Card>
+      <Jokes jokes={jokes}/>
     </div>
   );
 }

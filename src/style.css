@@ -1,7 +1,9 @@
-.flex {
-    display: flex;
-    justify-content: center;
-    width: 100rem;
-    margin: 10vh auto;
-    gap: 2rem;
+@media screen and (min-width: 1035px) {
+    .flex {
+        display: flex;
+        justify-content: center;
+        width: 100rem;
+        margin: 10vh auto;
+        flex-wrap: wrap;
+    }
 }
